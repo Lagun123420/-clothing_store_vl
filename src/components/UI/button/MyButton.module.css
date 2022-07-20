@@ -5,14 +5,15 @@
     width: 200px;
     margin: 10px 0px;
     box-shadow: inset 0px 0px 20px 0px white;
-    /* border: none; */
+    border: none;
     background-color: transparent;
     color: white;
     padding: 10px 20px;
     font-size: medium;
     font-weight: 600;
     cursor: pointer;
-    
-    
+}
 
+.myButton:hover {
+    box-shadow: inset 0px 0px 20px 0px #ff9800;
 }

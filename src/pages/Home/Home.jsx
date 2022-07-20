@@ -13,8 +13,8 @@ export const Home = () => {
             </div>
             <div className={cl.main}>
                 <div className={cl.btn}>
-                    <MyButton name={'Нижня білизна'} />
-                    <MyButton name={'Готові луки'} />
+                    <MyButton href='/underwear' name={'Нижня білизна'} />
+                    <MyButton href='/setclothes' name={'Готові луки'} />
                 </div>
             </div>
             <ModalIntro/>

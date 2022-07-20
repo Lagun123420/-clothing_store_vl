@@ -3,17 +3,12 @@
     text-transform: uppercase;
     height: 10em;
     position: relative;
-    /* margin: 0 20vw; */
 }
 
 .logo {
-    /* margin: 0; */
     position: absolute;
     top: 50%;
     right: 20%;
-    /* text-align: right; */
-    /* vertical-align: middle; */
-    /* display: block; */
     font-size: xx-large;
     font-weight: 900;
     text-shadow: -3px 2px 20px black;
@@ -22,10 +17,8 @@
 }
 
 .main {
-    /* color: wheat; */
     position: relative;
     height: 15em;
-    
 }
 
 .btn {

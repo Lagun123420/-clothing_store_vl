@@ -4,15 +4,12 @@
     top: 0;
     width: 100vw;
     height: 100vh;
-    /* z-index: -1; */
     animation: intro 13s linear;
     opacity: 0;
 }
 
 .modalIntro_first, .modalIntro_second {
-    /* z-index: -1; */
     opacity: 0;
-    /* display: none; */
     color: black;
     position: absolute;
     top: 50%;
@@ -33,6 +30,21 @@
 .modalIntro_second {
     animation-delay: 6s;
     
+}
+
+.skipBtn {
+    /* color: black; */
+
+    position: absolute;
+    top: 90%;
+    right: 5%;
+    border: none;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.522);
+    text-decoration: underline;
+    font-style: italic;
+    cursor: pointer;
+
 }
 
 @keyframes animate {

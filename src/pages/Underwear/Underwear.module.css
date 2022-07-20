@@ -1,0 +1,23 @@
+.main {
+    width: 60%;
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    font-style: italic;
+    animation: animate 3s linear;
+}
+
+.info {
+    margin: 10px;
+    font-size: 20px;
+    text-shadow: white;
+}
+
+@keyframes animate {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

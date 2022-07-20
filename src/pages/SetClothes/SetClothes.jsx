@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../components/UI/Footer/Footer";
 import cl from './SetClothes.module.css';
 
 export const SetClothes = () => {
@@ -11,6 +12,7 @@ export const SetClothes = () => {
 
                 <div className={cl.info}><span>Крім цього, кожен виріб комфортний і підходить для тривалого носіння.</span></div>
             </div>
+            <Footer/>
         </>
     );
 }

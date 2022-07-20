@@ -1,14 +1,17 @@
 .header {
     color: white;
     text-transform: uppercase;
-    height: 10em;
+    height: 30vh;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {
     position: absolute;
-    top: 50%;
-    right: 20%;
+    /* top: 50%; */
+    /* right: 38vw; */
     font-size: xx-large;
     font-weight: 900;
     text-shadow: -3px 2px 20px black;
@@ -18,7 +21,10 @@
 
 .main {
     position: relative;
-    height: 15em;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn {
@@ -26,6 +32,6 @@
     flex-direction: column;
     justify-content: space-around;
     position: absolute;
-    right: 25%;
-    top: 50%
+    /* right: 40vw; */
+    /* top: 50% */
 }

@@ -1,9 +1,13 @@
 import React from "react";
+import Footer from "../../components/UI/Footer/Footer";
 import cl from './Underwear.module.css';
 
 export const Underwear = () => {
     return (
-        <>
+        <>  
+            <div className={cl.header}>
+                <div className={cl.title}>Нижня білизна</div>
+            </div>
             <div className={cl.main}>
                 <div className={cl.info}>
                     <span>Красива нижня білизна підвищує жіночу самооцінку, навіть якщо іншим її не видно.</span>
@@ -22,6 +26,7 @@ export const Underwear = () => {
                     </span>
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

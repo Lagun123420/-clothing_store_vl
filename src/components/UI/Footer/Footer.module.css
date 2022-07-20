@@ -1,0 +1,51 @@
+.footer {
+    color: white !important;
+    position: relative;
+    /* border: 1px 0 0 0 solid white; */
+    height: 10vh;
+    margin: 0 auto;
+    justify-items: center;
+    font-size: 12px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.452);
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer_info {
+    position: relative;
+    top: 50%;
+    left: 50%;  
+    width: fit-content;
+    color: white;
+    text-shadow: white;
+}
+
+.footer_info_link {
+    color: white;
+    text-shadow: white;
+    padding: 0 5px;
+}
+
+.footer_info_phone, .footer_info_adress, .footer_info_messengers {
+    display: flex;
+    padding: 0 10px;
+}
+
+.footer_info_phone {
+    
+}
+
+.phone_info, .adress_info {
+    margin-left: 5px;
+}
+
+.footer_info_adress {
+
+}
+
+
+.footer_info_messengers {
+    justify-content: space-between;
+}

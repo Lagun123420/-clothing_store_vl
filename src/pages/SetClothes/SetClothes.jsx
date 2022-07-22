@@ -5,6 +5,9 @@ import cl from './SetClothes.module.css';
 export const SetClothes = () => {
     return (
         <>
+            <div className={cl.header}>
+                <div className={cl.title}>Готові луки</div>
+            </div>
             <div className={cl.main}>
                 <div className={cl.info}><span>Трендові моделі лосін в рубчик, велосипедки, штани, базові футболки</span></div>
 

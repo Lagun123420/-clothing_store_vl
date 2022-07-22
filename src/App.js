@@ -2,7 +2,7 @@ import Home from "./pages/Home/Home";
 import {Routes, Route, BrowserRouter} from 'react-router-dom';
 import Underwear from "./pages/Underwear/Underwear";
 import SetClothes from "./pages/SetClothes/SetClothes";
-import Footer from "./components/UI/Footer/Footer";
+// import Footer from "./components/UI/Footer/Footer";
 import Contacts from "./pages/Contacts/Contacts";
 
 function App() {

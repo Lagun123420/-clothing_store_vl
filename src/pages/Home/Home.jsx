@@ -16,7 +16,7 @@ export const Home = () => {
                 <div className={cl.btn}>
                     <MyButton href='/underwear' name={'Нижня білизна'} />
                     <MyButton href='/setclothes' name={'Готові луки'} />
-                    <MyButton href='/setclothes' name={'Контакти'} />
+                    {/* <MyButton href='/setclothes' name={'Контакти'} /> */}
                 </div>
             </div>
             <Footer/>

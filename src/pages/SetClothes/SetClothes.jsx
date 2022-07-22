@@ -4,7 +4,7 @@ import cl from './SetClothes.module.css';
 
 export const SetClothes = () => {
     return (
-        <>
+        <div className={cl.wrapper}>
             <div className={cl.header}>
                 <div className={cl.title}>Готові луки</div>
             </div>
@@ -16,7 +16,7 @@ export const SetClothes = () => {
                 <div className={cl.info}><span>Крім цього, кожен виріб комфортний і підходить для тривалого носіння.</span></div>
             </div>
             <Footer/>
-        </>
+        </div>
     );
 }
 

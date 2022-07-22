@@ -6,7 +6,7 @@ import cl from './Home.module.css'
 
 export const Home = () => {
     return (
-        <>  
+        <div className={cl.wrapper}>  
             <div className={cl.header}>
                 <div className={cl.logo}>
                     Білизна для всіх
@@ -21,7 +21,7 @@ export const Home = () => {
             </div>
             <Footer/>
             <ModalIntro/>
-        </>
+        </div>
     )
 }  
 

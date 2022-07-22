@@ -14,6 +14,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
+    padding: 20px;
     transform: translate(-50%, -50%);
     width: fit-content;
     font-weight: lighter;
@@ -23,19 +24,15 @@
     animation: animate 8s linear ;
     background-size: 90%;
     background-repeat: no-repeat;
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 
 .modalIntro_second {
-    animation-delay: 6s;
-    
+    animation-delay: 6s;   
 }
 
 .skipBtn {
-    /* color: black; */
-
     position: absolute;
     top: 90%;
     right: 5%;
@@ -49,7 +46,6 @@
 
 @keyframes animate {
     0% {opacity: 1;
-        /* z-index: 1; */
         color: white;
         background-position: -1000%;
     }

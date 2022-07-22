@@ -7,8 +7,6 @@ function closeIntro () {
 
 setTimeout(closeIntro, 13000);
 
-
-
 export const ModalIntro = () => {
     return (
         <>
@@ -17,7 +15,6 @@ export const ModalIntro = () => {
                 <h1 className={cl.modalIntro_second}>... навіть якщо іншим її не видно.</h1>
                 <button className={cl.skipBtn} onClick={e => closeIntro()}>Пропустити</button>
             </div>
-
         </>
     )
 }

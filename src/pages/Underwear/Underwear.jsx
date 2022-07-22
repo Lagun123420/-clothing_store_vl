@@ -4,7 +4,7 @@ import cl from './Underwear.module.css';
 
 export const Underwear = () => {
     return (
-        <>  
+        <div className={cl.wrapper}>  
             <div className={cl.header}>
                 <div className={cl.title}>Нижня білизна</div>
             </div>
@@ -27,7 +27,7 @@ export const Underwear = () => {
                 </div>
             </div>
             <Footer/>
-        </>
+        </div>
     )
 }
 

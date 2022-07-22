@@ -1,8 +1,7 @@
 .footer {
     color: white !important;
-    position: relative;
-    /* border: 1px 0 0 0 solid white; */
-    height: 10vh;
+    width: 100%;
+    min-height: 10vh;
     margin: 0 auto;
     justify-items: center;
     font-size: 12px;
@@ -10,7 +9,8 @@
     background-color: rgba(0, 0, 0, 0.452);
     align-items: center;
     justify-content: center;
-
+    flex: 0 0 auto;
+    flex-wrap: wrap;
 }
 
 .footer_info {
@@ -20,6 +20,7 @@
     width: fit-content;
     color: white;
     text-shadow: white;
+    margin-top: 10px;
 }
 
 .footer_info_link {
@@ -30,21 +31,13 @@
 
 .footer_info_phone, .footer_info_adress, .footer_info_messengers {
     display: flex;
-    padding: 0 10px;
-}
-
-.footer_info_phone {
-    
+    padding: 5 10px;
+    margin: 5px;
 }
 
 .phone_info, .adress_info {
     margin-left: 5px;
 }
-
-.footer_info_adress {
-
-}
-
 
 .footer_info_messengers {
     justify-content: space-between;

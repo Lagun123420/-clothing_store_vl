@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/-clothing_store_vl/static/css/main.56a1d6bf.css",
-    "main.js": "/-clothing_store_vl/static/js/main.c014b223.js",
+    "main.css": "/-clothing_store_vl/static/css/main.47a03e4f.css",
+    "main.js": "/-clothing_store_vl/static/js/main.7de44c62.js",
     "static/media/background_main.jpg": "/-clothing_store_vl/static/media/background_main.09f25c1b792df8749e96.jpg",
+    "static/media/MarckScript-Regular.ttf": "/-clothing_store_vl/static/media/MarckScript-Regular.5b6142752f3269576cc7.ttf",
     "index.html": "/-clothing_store_vl/index.html",
-    "main.56a1d6bf.css.map": "/-clothing_store_vl/static/css/main.56a1d6bf.css.map",
-    "main.c014b223.js.map": "/-clothing_store_vl/static/js/main.c014b223.js.map"
+    "main.47a03e4f.css.map": "/-clothing_store_vl/static/css/main.47a03e4f.css.map",
+    "main.7de44c62.js.map": "/-clothing_store_vl/static/js/main.7de44c62.js.map"
   },
   "entrypoints": [
-    "static/css/main.56a1d6bf.css",
-    "static/js/main.c014b223.js"
+    "static/css/main.47a03e4f.css",
+    "static/js/main.7de44c62.js"
   ]
 }

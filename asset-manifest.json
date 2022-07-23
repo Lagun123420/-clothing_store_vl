@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/-clothing_store_vl/static/css/main.f77e5b2c.css",
+    "main.css": "/-clothing_store_vl/static/css/main.e80ad17f.css",
     "main.js": "/-clothing_store_vl/static/js/main.605119a4.js",
     "static/media/background_main.jpg": "/-clothing_store_vl/static/media/background_main.09f25c1b792df8749e96.jpg",
     "static/media/MarckScript-Regular.ttf": "/-clothing_store_vl/static/media/MarckScript-Regular.5b6142752f3269576cc7.ttf",
     "index.html": "/-clothing_store_vl/index.html",
-    "main.f77e5b2c.css.map": "/-clothing_store_vl/static/css/main.f77e5b2c.css.map",
+    "main.e80ad17f.css.map": "/-clothing_store_vl/static/css/main.e80ad17f.css.map",
     "main.605119a4.js.map": "/-clothing_store_vl/static/js/main.605119a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.f77e5b2c.css",
+    "static/css/main.e80ad17f.css",
     "static/js/main.605119a4.js"
   ]
 }

@@ -14,8 +14,8 @@ export const Home = () => {
             </div>
             <div className={cl.main}>
                 <div className={cl.btn}>
-                    <MyButton href='/underwear' name={'Нижня білизна'} />
-                    <MyButton href='/setclothes' name={'Готові луки'} />
+                    <MyButton href='/underwear' name={'Жіноча білизна'} />
+                    <MyButton href='/setclothes' name={'Одяг'} />
                     {/* <MyButton href='/setclothes' name={'Контакти'} /> */}
                 </div>
             </div>

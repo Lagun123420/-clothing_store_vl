@@ -4,11 +4,87 @@
     top: 0;
     width: 100vw;
     height: 100vh;
-    animation: intro 13s linear;
+    animation: intro 8s linear;
     opacity: 0;
 }
 
-.modalIntro_first, .modalIntro_second {
+@media screen and (max-width: 699px) {
+    .modalIntro_first {
+        opacity: 0;
+        color: black;
+        position: absolute;
+        top: 18%;
+        left: 50%;
+        padding: 20px;
+        transform: translate(-50%, -50%);
+        width: fit-content;
+        font-weight: lighter;
+        font-style: italic;
+        font-size: 2.5em;
+        background: linear(90deg, black, white, black);
+        animation: animate_mobile 4s linear ;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-clip: text;
+        /* -webkit-text-fill-color: transparent; */
+    }
+
+    .modalIntro_second {
+        animation-delay: 4s;
+        opacity: 0;
+        color: black;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        padding: 20px;
+        transform: translate(-50%, -50%);
+        width: fit-content;
+        font-weight: lighter;
+        font-style: italic;
+        font-size: 2.5em;
+        background: linear(90deg, black, white, black);
+        /* animation-delay: 4s; */
+        animation: animate_mobile 4s linear ;
+        animation-delay: 4s;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-clip: text;
+    }
+    
+}
+
+@media screen and (min-width: 700px) {
+    .modalIntro {
+        animation: intro 13s linear;
+    }
+
+    .modalIntro_first, .modalIntro_second {
+        opacity: 0;
+        color: black;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 20px;
+        transform: translate(-50%, -50%);
+        width: fit-content;
+        font-weight: lighter;
+        font-style: italic;
+        font-size: 2em;
+        background: linear-gradient(90deg, black, white, black);
+        /* animation-delay: 10s; */
+        animation: animate 10s linear ;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .modalIntro_second {
+        animation-delay: 6s;   
+    }
+}
+
+/* .modalIntro_first, .modalIntro_second {
     opacity: 0;
     color: black;
     position: absolute;
@@ -17,11 +93,11 @@
     padding: 20px;
     transform: translate(-50%, -50%);
     width: fit-content;
-    font-weight: lighter;
+    font-weight: 700;
     font-style: italic;
     font-size: 2.5em;
     background: linear-gradient(90deg, black, white, black);
-    animation: animate 8s linear ;
+    animation: animate 10s linear ;
     background-size: 90%;
     background-repeat: no-repeat;
     background-clip: text;
@@ -30,7 +106,7 @@
 
 .modalIntro_second {
     animation-delay: 6s;   
-}
+} */
 
 .skipBtn {
     position: absolute;
@@ -41,7 +117,17 @@
     color: rgba(255, 255, 255, 0.522);
     text-decoration: underline;
     font-style: italic;
+    font-size: 20px;
     cursor: pointer;
+}
+
+@keyframes animate_mobile {
+    0% {opacity: 0;
+        color: white;
+    }
+    30% {opacity: 1;}
+    90% {opacity: 1;}
+    100% {opacity: 0;}   
 }
 
 @keyframes animate {

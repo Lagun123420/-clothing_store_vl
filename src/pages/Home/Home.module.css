@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../../fonts/MarckScript-Regular.ttf');
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap'); */
+
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -6,19 +13,27 @@
 
 .header {
     color: white;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 1 0 auto;
+    
 }
 
 .logo {
+    font-family: 'Inter';
     font-size: xx-large;
     font-weight: 900;
     text-shadow: -3px 2px 20px black;
     text-decoration: overline;
     cursor: pointer;
+}
+
+@media screen and (min-width: 700px) {
+    .logo {
+        font-size: 4em;
+    }
 }
 
 .main {

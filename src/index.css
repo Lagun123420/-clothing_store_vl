@@ -23,6 +23,12 @@ body {
   background-size: cover;
 }
 
+@media screen and (max-width: 600px) {
+  body {
+    background-position: -150px;
+  }
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

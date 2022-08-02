@@ -5,7 +5,7 @@ function closeIntro () {
     document.getElementById('modalIntro').style.display='none';
 }
 
-setTimeout(closeIntro, 13000);
+setTimeout(closeIntro, 8000);
 
 export const ModalIntro = () => {
     return (

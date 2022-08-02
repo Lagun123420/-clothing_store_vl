@@ -55,7 +55,7 @@
 
 @media screen and (min-width: 700px) {
     .modalIntro {
-        animation: intro 13s linear;
+        animation: intro 8s linear;
     }
 
     .modalIntro_first, .modalIntro_second {
@@ -70,9 +70,9 @@
         font-weight: lighter;
         font-style: italic;
         font-size: 2em;
-        background: linear-gradient(90deg, black, white, black);
+        background: linear-gradient(130deg, black, white, black);
         /* animation-delay: 10s; */
-        animation: animate 10s linear ;
+        animation: animate 4s linear ;
         background-size: 90%;
         background-repeat: no-repeat;
         background-clip: text;
@@ -80,7 +80,7 @@
     }
 
     .modalIntro_second {
-        animation-delay: 6s;   
+        animation-delay: 4s;   
     }
 }
 

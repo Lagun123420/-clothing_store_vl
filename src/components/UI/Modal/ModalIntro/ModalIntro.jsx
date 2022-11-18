@@ -1,13 +1,18 @@
 import React from "react";
-import cl from './ModalIntro.module.css'
+import cl from './ModalIntro.module.css';
 
-function closeIntro () {
-    document.getElementById('modalIntro').style.display='none';
-}
 
-setTimeout(closeIntro, 8000);
 
-export const ModalIntro = () => {
+export const ModalIntro = (props) => {
+    function closeIntro () {
+        if (document.getElementById('modalIntro') !== null) {
+            document.getElementById('modalIntro').style.display='none';
+            props.setIsLoading(true);
+        }
+    }
+    
+    setTimeout(closeIntro, 8000);
+
     return (
         <>
             <div className={cl.modalIntro} id='modalIntro'>

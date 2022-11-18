@@ -66,7 +66,7 @@ export const Footer = () => {
 
                     <a 
                         className={cl.footer_info_link} 
-                        href="https://instagram.com/biluzna_vorohta_?igshid=YmMyMTA2M2Y=" 
+                        href="https://instagram.com/femininity_store_ua" 
                         target="_blank" 
                         rel="noopener noreferrer"
                     >

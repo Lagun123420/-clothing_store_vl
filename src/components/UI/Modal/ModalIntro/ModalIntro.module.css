@@ -13,14 +13,14 @@
         opacity: 0;
         color: black;
         position: absolute;
-        top: 18%;
+        top: 30%;
         left: 50%;
         padding: 20px;
         transform: translate(-50%, -50%);
         width: fit-content;
         font-weight: lighter;
         font-style: italic;
-        font-size: 2.5em;
+        font-size: 1.5em;
         background: linear(90deg, black, white, black);
         animation: animate_mobile 4s linear ;
         background-size: 90%;
@@ -41,7 +41,7 @@
         width: fit-content;
         font-weight: lighter;
         font-style: italic;
-        font-size: 2.5em;
+        font-size: 1.5em;
         background: linear(90deg, black, white, black);
         /* animation-delay: 4s; */
         animation: animate_mobile 4s linear ;
